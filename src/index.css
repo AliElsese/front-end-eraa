@@ -23,20 +23,10 @@ p,
 h1,
 h2,
 h3,
-h4,
-h5,
-p {
-  margin-bottom: 0 !important;
-}
-
-ul {
-  list-style: none;
-  display: flex;
-}
-
-a {
-  text-decoration: none !important;
-  color: black !important;
+span,
+ul,
+hr {
+  margin: 0;
 }
 
 input[type="password"]::-ms-reveal,
