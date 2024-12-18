@@ -1,0 +1,43 @@
+.hero-section {
+  min-height: calc(-89px + 100vh);
+  margin-top: 89px;
+  padding: 12px;
+  gap: 12px;
+}
+.hero-section .hero-content {
+  max-width: 400px;
+  gap: 12px;
+}
+.hero-section .hero-video {
+  max-width: 600px;
+}
+.hero-section .hero-content h1 {
+  color: #2c5282;
+  font-size: 30px;
+  line-height: 1.2;
+}
+.hero-section .hero-content span {
+  color: #2c5282;
+  font-size: 20px;
+  line-height: 1.2;
+  opacity: 0.9;
+}
+.hero-section .hero-content p {
+  color: #1a202c;
+  background-color: #F7FAFC;
+}
+.hero-section .hero-content hr {
+  color: #e2e8f0;
+  opacity: 0.7;
+  height: 1px;
+}
+.hero-section .hero-content button {
+  height: 40px;
+  line-height: 1.2;
+  background-color: #3182ce;
+  border: 1px solid #3182ce;
+  transition: 0.5s;
+}
+.hero-section .hero-content button:hover {
+  background-color: #2b6cb0;
+}

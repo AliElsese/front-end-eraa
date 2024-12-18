@@ -1,0 +1,54 @@
+.login {
+  background-image: url('../../assits/login.jpg');
+  background-size: cover;
+}
+.login .login-layer {
+  background-color: rgb(49, 130, 206, 0.7);
+}
+.login .login-box {
+  width: 600px;
+}
+.login input,
+.login button {
+  height: 40px;
+}
+.login input {
+  outline-color: #3182ce;
+  border-color: rgb(43, 108, 176, 0.2);
+  border-width: 1px;
+}
+.login input[name="user_password"] {
+  width: calc(100% - 50px);
+}
+.login .eyed {
+  width: 50px;
+  border: 1px solid rgb(43, 108, 176, 0.2);
+  cursor: pointer;
+}
+.login input::placeholder,
+.login a {
+  color: #718096 !important;
+}
+.login a {
+  width: fit-content !important;
+  transition: 0.5s;
+}
+.login a:hover {
+  text-decoration: underline !important;
+}
+.login button {
+  background-color: #3182ce;
+  color: white !important;
+  border: 1px solid #3182ce;
+  transition: 0.5s;
+}
+.login button:last-child {
+  background-color: white;
+  color: #2b6cb0 !important;
+}
+.login button:hover {
+  background-color: #2b6cb0;
+}
+.login button:last-child:hover {
+  background-color: #ebf8ff;
+}

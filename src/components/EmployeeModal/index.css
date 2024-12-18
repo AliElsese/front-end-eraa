@@ -1,0 +1,83 @@
+.modal-student {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.modal-student .modal-content {
+    width: 500px;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+}
+
+.modal-student .modal-content .close-model-btn {
+    cursor: pointer;
+    right: 15px;
+    top: 15px;
+    color: rgb(229, 62, 62);
+}
+
+.modal-student .modal-content .modal-title {
+    color: #2c5282;
+    font-size: 25px;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    width: fit-content;
+    border-bottom: 3px solid #2c5282;
+}
+
+.modal-student .modal-content .student-input {
+    border-bottom: 2px solid #d9d9d9;
+    padding-bottom: 10px;
+}
+
+.modal-student .modal-content .student-input::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 100%;
+    width: 100%;
+    height: 2px;
+    transition: all 0.4s ease;
+    background-color: #2c5282;
+    opacity: 0.9;
+}
+
+.modal-student .modal-content .student-input:focus-within::before {
+    left: 0;
+}
+
+.modal-student .modal-content .student-input label {
+    font-size: 16px;
+    color: #2c5282;
+    opacity: 0.9;
+    line-height: 1.5;
+    padding-left: 5px;
+}
+
+.modal-student .modal-content .student-input input {
+    height: 30px;
+    background: transparent;
+    font-size: 18px;
+    color: #333333;
+    line-height: 1.2;
+    padding: 0 5px;
+    border: none;
+    outline: none;
+}
+
+.modal-student .modal-content .submit-button button {
+    height: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.2;
+    outline: none;
+    border: none;
+    transition: 0.2s;
+    background-color: #2c5282;
+}

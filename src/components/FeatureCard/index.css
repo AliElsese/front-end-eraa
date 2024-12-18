@@ -1,0 +1,47 @@
+.feature-card {
+  gap: 12px;
+  background-color: #2b6cb0;
+  max-width: 300px;
+  min-height: 400px;
+  transform: translateY(0px);
+  transition: 0.3s;
+  z-index: 1;
+}
+.feature-card:hover {
+  color: #2c5282 !important;
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 10px;
+}
+.feature-card::before,
+.feature-card::after {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #edf2f7;
+  opacity: 0.2;
+  transition: 0.4s;
+  z-index: -1;
+}
+.feature-card::before {
+  top: -40px;
+  left: -40px;
+}
+.feature-card::after {
+  bottom: -40px;
+  right: -40px;
+}
+.feature-card:hover::before,
+.feature-card:hover::after {
+  transform: scale(4);
+  opacity: 1;
+}
+
+.feature-card img {
+  width: 100px;
+}
+.feature-card h6 {
+  font-size: 36px;
+  line-height: 1.2;
+}

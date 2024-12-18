@@ -1,0 +1,37 @@
+.location-section .location-content {
+  max-width: 400px;
+}
+.location-section .location-content h2 {
+  color: #2c5282;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.location-section .location-content p {
+  color: #2c5282;
+  line-height: 1.5;
+}
+.location-section .location-content .whats-btn,
+.location-section .location-content .face-btn {
+  height: 40px;
+  min-width: 40px;
+  border-radius: 6px;
+  line-height: 1.2;
+  transition: 0.3s;
+}
+.location-section .location-content .whats-btn {
+  background-color: #38a169;
+}
+.location-section .location-content .whats-btn:hover {
+  background-color: #2f855a;
+}
+.location-section .location-content .face-btn {
+  background-color: #3182ce;
+}
+.location-section .location-content .face-btn:hover {
+  background-color: #2b6cb0;
+}
+.location-section .location-content hr {
+  color: #e2e8f0;
+  opacity: 0.7;
+  height: 1px;
+}

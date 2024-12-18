@@ -1,0 +1,50 @@
+.contact-us-section {
+  background-image: url("../../assets/login.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.contact-us-section .contact-us-section-layer {
+  background-color: rgb(43, 108, 176, 0.6);
+}
+.contact-us-section .content h2 {
+  font-size: 30px;
+}
+.contact-us-section .content h2::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 25%;
+  width: 50%;
+  height: 2px;
+  background-color: #fff;
+}
+.contact-us-section .content .forms {
+  max-width: 600px;
+}
+.contact-us-section input {
+  height: 40px;
+  outline-color: #3182ce;
+  border-color: rgb(43, 108, 176, 0.2);
+  border-width: 1px;
+  background-color: #F7FAFC;
+}
+.contact-us-section textarea {
+  outline-color: #3182ce;
+  border-color: rgb(43, 108, 176, 0.2);
+  border-width: 1px;
+  background-color: #F7FAFC;
+}
+.contact-us-section input::placeholder {
+  color: #718096 !important;
+}
+.contact-us-section button {
+  height: 40px;
+  background-color: #3182ce;
+  border: 1px solid #3182ce;
+  transition: 0.5s;
+}
+.contact-us-section button:hover {
+  background-color: #2b6cb0;
+  border-color: #2b6cb0;
+}

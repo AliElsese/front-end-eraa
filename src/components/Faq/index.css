@@ -1,0 +1,25 @@
+.faq {
+  color: #1a202c;
+}
+.faq-question {
+  transition: 200ms;
+  cursor: pointer;
+}
+.faq-question:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.faq p {
+  flex: 1 1 0%;
+}
+.faq svg {
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+.rotated-icon {
+  transform: rotate(-180deg);
+  transform-origin: center center;
+  transition: transform 0.2s;
+}

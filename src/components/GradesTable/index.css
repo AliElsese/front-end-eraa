@@ -1,0 +1,54 @@
+.table-search {
+    max-width: 300px;
+    width: 100%;
+    border-bottom: 2px solid #d9d9d9;
+    padding-bottom: 10px;
+}
+
+.table-search::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 100%;
+    width: 100%;
+    height: 2px;
+    transition: all 0.2s ease;
+    background-color: #2c5282;
+    opacity: 0.9;
+}
+
+.table-search:focus-within::before {
+    left: 0;
+}
+
+.table-search .search-btn {
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    font-size: 18px;
+    color: #333333;
+    line-height: 1.2;
+    padding: 0 5px;
+    border: none;
+    outline: none;
+}
+
+.fFPLVZ {
+    background-color: #fdfdfd !important;
+}
+
+.ddvZdT {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.bOmZtP div:first-child {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.table-section {
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}

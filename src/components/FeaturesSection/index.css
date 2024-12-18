@@ -1,0 +1,52 @@
+.features-section {
+  background-color: #3182ce;
+  gap: 28px;
+}
+.features-section h2 {
+  width: fit-content;
+  font-size: 32px;
+  line-height: 1.2;
+  padding: 12px 40px;
+  border-width: 2px !important;
+}
+@media (max-width: 767px) {
+  .features-section h2 {
+    padding: 12px 20px;
+  }
+}
+.features-cards {
+  gap: 20px;
+}
+.features-content h4{
+  font-size: 16px;
+  line-height: 32px;
+  padding: 12px;
+  border-width: 2px !important;
+}
+@media (max-width: 767px) {
+  .features-content h4 {
+    padding: 12px 9px;
+  }
+}
+.features-section a {
+  max-width: 500px;
+  min-width: 48px;
+  height: 48px;
+  font-size: 18px;
+  line-height: 1.2;
+  padding: 0px 24px;
+  border-color: #E2E8F0;
+  border-radius: 6px;
+  gap: 12px;
+  transition: 0.3s;
+}
+.features-section a:hover {
+  color: #2a4365 !important;
+  background-color: #F7FAFC;
+}
+
+@media (max-width: 767px) {
+  .features-section a {
+    font-weight: 500 !important;
+  }
+}
